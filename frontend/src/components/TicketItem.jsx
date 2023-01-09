@@ -1,14 +1,21 @@
 import { Link } from "react-router-dom";
 
-const TicketItem = ({ ticket }) => {
+const TicketItem = ( {ticket} ) => {
   return (
     <div className="ticket">
-      <div>{new Date(ticket.createAt).toLocaleDateString("en-US")}</div>
-      <div>{ticket.product}</div>
-      <div className={`status status-${ticket.status}`}>{ticket.status}</div>
-      <Link to={`/ticket/${ticket._id}`} className="btn btn-reverse btn-sm">
-        View
-      </Link>
+      <h1>fjkjfhg</h1>
+      <h1>fdkljflgfg
+
+
+        fdjhf
+
+        fgjklfjgnd
+
+
+        fcv;kjfvgkjh
+      </h1>
+      <div>{ticket}</div>
+      
     </div>
   );
 };
