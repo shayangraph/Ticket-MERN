@@ -37,9 +37,9 @@ const Tickets = () => {
           <div>Product</div>
           <div>status</div>
         </div>
-        {tickets.map((ticket) => {
-          <TicketItem key={ticket._id} ticket={ticket} />;
-        })}
+        {tickets.map((ticket) => (
+          <TicketItem key={ticket._id} ticket={ticket} />
+        ))}
       </div>
     </>
   );
